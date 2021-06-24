@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-03 23:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: contact/forms.py:14
+msgid "Name"
+msgstr "Имя"
+
+#: contact/forms.py:15
+msgid "What's your name?"
+msgstr "Как Вас зовут?"
+
+#: contact/forms.py:17
+msgid "Name field is required."
+msgstr "Поле 'Имя' обязательно."
+
+#: contact/forms.py:18
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: contact/forms.py:28
+msgid "Message subject"
+msgstr "Тема сообщения"
+
+#: contact/forms.py:30
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: contact/forms.py:35
+msgid "Your E-mail"
+msgstr "Ваш E-mail"
+
+#: contact/forms.py:36
+msgid "Subject"
+msgstr "Тема"
+
+#: contact/forms.py:37
+msgid "Message"
+msgstr "Сообщение"
+
+#: contact/forms.py:41
+msgid "Message field is required."
+msgstr "Поле 'Сообщение' обязательно."
+
+#: contact/forms.py:49
+msgid "A name must contain only letters and spaces."
+msgstr "Имя должно содержать только буквы и пробелы."
+
+#: contact/forms.py:60
+msgid "A phone number must contain only digits."
+msgstr "Номер телефона должен содержать только цифры."
+
+#: contact/forms.py:67
+#, python-brace-format
+msgid ""
+"{message}\n"
+"From: {from_email} {phone}"
+msgstr ""
+"{message}\n"
+"От: {from_email} {phone}"
+
+#: contact/models.py:7
+msgid "Sender Name"
+msgstr "Имя отправителя"
+
+#: contact/models.py:8
+msgid "Sender E-mail"
+msgstr "E-mail отправителя"
+
+#: contact/models.py:9
+msgid "Sender Phone Number"
+msgstr "Номер телефона отправителя"
+
+#: contact/models.py:10
+msgid "Message Subject"
+msgstr "Тема сообщения"
+
+#: contact/models.py:11
+msgid "Message Text"
+msgstr "Текст сообщения"
+
+#: contact/models.py:12
+msgid "Sent"
+msgstr "Отправлено"
+
+#: contact/models.py:15
+msgid "E-mail Message"
+msgstr "Сообщение"
+
+#: contact/models.py:16
+msgid "E-mail Messages"
+msgstr "Сообщения"
+
+#: contact/models.py:19
+#, python-brace-format
+msgid "Message from {name}"
+msgstr "Сообщение от {name}"
+
+#: contact/templates/contact/contact_form.html:29
+msgid "Send"
+msgstr "Отправить"
+
+#: contact/views.py:35
+#, python-brace-format
+msgid "Thank you, {name}! I'll reply you soon..."
+msgstr "Спасибо, {name}! Я отвечу в ближайшее время..."
+
+#: contact/views.py:48
+msgid "Please confirm that you are not a robot."
+msgstr "Пожалуйста, подтвердите, что вы не робот."
